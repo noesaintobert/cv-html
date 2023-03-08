@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+}
+
+.cv {
+    display: flex;
+    justify-content: center;
+}
+
+.container1 {
+    background-color: rgba(64, 114, 97, 0.69);
+    width: 200px;
+    height: 1000px;
+}
+
+.container1 img {
+    width: 100%;
+}
+
+.container2 {
+    background-color: aliceblue;
+    width: 400px;
+    height: 1000px;
+}
+
+.container2 h1 {
+    color: rgb(3, 89, 3);
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+    font-size: 30px;
+}
+
+.container2 p1 {
+    font-family: 'Saira', sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.trait {
+    color: green;
+}
+
+.logos img{
+    width: 25px;
+    height: 25px;
+}
+
+.logos {
+    display: block;
+}
+
+
+a{
+    background-color: rgb(10, 88, 24);
+    width: 100px;
+    color: aliceblue;
+    height: 20px;
+    text-decoration: none;
+    margin-left: 40%;
+}
+
+.bouton1{
+    margin-top: 500px;
+}
+
+p {
+    display: block;
+    height: ;
+
+}

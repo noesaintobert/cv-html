@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="formulaire.php" method="post">
+        <TABLE>
+            <TR>
+                <TD>Pour quelles raisons me contactez-vous </TD>
+                <TD>
+                    <SELECT NAME="Raisons" ID="Raisons">
+                        <OPTION Value="" Selected></OPTION>
+                        <OPTION Value="Entretien">Entretien</OPTION>
+                        <OPTION Value="Informations">Informations</OPTION>
+                        <OPTION Value="Recrutement">Recrutement</OPTION>
+                    </SELECT>
+                </TD>
+            </TR>
+            <TR>
+                <TD>Nom de votre entreprise </TD>
+                <TD><INPUT Type="Text" NAME="Nom" ID="Nom"></INPUT></TD>
+            </TR>
+            <TR>
+                <TD>Mail de l'entreprise</TD>
+                <TD><INPUT Type="Text" NAME="Mail" ID="Mail"></INPUT></TD>
+            </TR>
+            <TR>
+                <TD>Numéro de votre entreprise </TD>
+                <TD><INPUT Type="tel" NAME="Num" ID="Num"></INPUT></TD>
+            </TR>
+            <TR>
+                <TD>Adresse de l'entreprise</TD>
+                <TD><INPUT Type="Text" NAME="Adresse" ID="Adresse"></INPUT></TD>
+            </TR>
+            <TR>
+                <TD>Indiquez ici, <br>vos disponibilités<br> ainsi que vos remarques </TD>
+                <TD><textarea NAME="Remarques" ID="Remarques" cols="70" rows="10"></textarea></TD>
+            </TR>
+        </TABLE>
+        <input type="submit" value="Envoyer" />
+    </form>
+
+</body>
+
+</html>
