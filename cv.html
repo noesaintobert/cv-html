@@ -56,14 +56,47 @@
                 <img src="logolink.png" <p>linkedin.com/in/noe-saintobert-developpeur-informatique/</p>
 
             </div>
-            <div class="trait">
+
                 <hr>
-            </div>
+
 
             <div>
-                <h2>FORMATION</h2>
-                <p>Lycée Fragonard | L'Isle Adam | 09/2021-07/2022 <br> Baccalauréat Scientifique</p>
-
+                <form action="formulaire.php" method="post">
+                    <TABLE>
+                        <TR>
+                            <TD>Pour quelles raisons me contactez-vous </TD>
+                            <TD>
+                                <SELECT NAME="Raisons" ID="Raisons">
+                                    <OPTION Value="" Selected></OPTION>
+                                    <OPTION Value="Entretien">Entretien</OPTION>
+                                    <OPTION Value="Informations">Informations</OPTION>
+                                    <OPTION Value="Recrutement">Recrutement</OPTION>
+                                </SELECT>
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD>Nom de votre entreprise </TD>
+                            <TD><INPUT Type="Text" NAME="Nom" ID="Nom"></INPUT></TD>
+                        </TR>
+                        <TR>
+                            <TD>Mail de l'entreprise</TD>
+                            <TD><INPUT Type="Text" NAME="Mail" ID="Mail"></INPUT></TD>
+                        </TR>
+                        <TR>
+                            <TD>Numéro de votre entreprise </TD>
+                            <TD><INPUT Type="tel" NAME="Num" ID="Num"></INPUT></TD>
+                        </TR>
+                        <TR>
+                            <TD>Adresse de l'entreprise</TD>
+                            <TD><INPUT Type="Text" NAME="Adresse" ID="Adresse"></INPUT></TD>
+                        </TR>
+                        <TR>
+                            <TD>Indiquez ici, <br>vos disponibilités<br> ainsi que vos remarques </TD>
+                            <TD><textarea NAME="Remarques" ID="Remarques" cols="30" rows="10"></textarea></TD>
+                        </TR>
+                    </TABLE>
+                    <input type="submit" value="Envoyer" />
+                </form>
             </div>
             <div class ="bouton1"><a href="formulaire.html" target="_blank">Contactez-moi</a></div>
         </div>

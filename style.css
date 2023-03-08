@@ -42,7 +42,7 @@ body {
     color: green;
 }
 
-.logos img{
+.logos img {
     width: 25px;
     height: 25px;
 }
@@ -52,7 +52,7 @@ body {
 }
 
 
-a{
+a {
     background-color: rgb(10, 88, 24);
     width: 100px;
     color: aliceblue;
@@ -61,12 +61,35 @@ a{
     margin-left: 40%;
 }
 
-.bouton1{
+.bouton1 {
     margin-top: 500px;
 }
 
-p {
-    display: block;
-    height: ;
+.logos {
+    padding-left: 5px;
+    font-size: 15px;
+}
 
+h2 {
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+h4 {
+    font-size: 15px;
+    color: rgba(240, 248, 255, 0.522);
+    margin-left: 5px;
+}
+
+p {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+td {
+    color: green;
+    font-size: 10px;
+    padding-top: 40px;
+    padding-left: 10px;
 }
