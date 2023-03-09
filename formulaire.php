@@ -7,7 +7,7 @@
 	$Adresse = htmlspecialchars($_POST["Adresse"]);
 	$Remarques = htmlspecialchars($_POST["Remarques"]);
 
-	echo "Votre formulaire a bien été envoyé " . ' !';
+	echo "Bonjour, " . "le formulaire de votre entreprise " . $Nom ." bien été envoyé, vous allez être contacté dans peu de temps  " . ' !';
 
 	// 1 : on ouvre le fichier
 	$monfichier = fopen('formulaire.txt', 'a+');
